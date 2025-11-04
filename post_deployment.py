@@ -190,8 +190,8 @@ vJsonBody = {
     }
 }
 
-vSleepInSeconds=30
-vUrl = vBaseUrl + f"workspaces/{vWorkspaceId}/items/{vNotebookId}/jobs/instances?jobType=RunNotebook"
-run_notebook(vUrl, vHeader, vJsonBody, "executing", vWorkspaceId, vNotebookName, "Notebook", vSleepInSeconds) 
+# vSleepInSeconds=30
+# vUrl = vBaseUrl + f"workspaces/{vWorkspaceId}/items/{vNotebookId}/jobs/instances?jobType=RunNotebook"
+# run_notebook(vUrl, vHeader, vJsonBody, "executing", vWorkspaceId, vNotebookName, "Notebook", vSleepInSeconds) 
 
 
